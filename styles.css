@@ -1,0 +1,90 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto);
+@import url(https://fonts.googleapis.com/css?family=Moda%20Bodoni);
+
+/* Globals */
+body {
+  font-family: 'Roboto';
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: bold;
+  font-family: 'Bodoni Moda'
+}
+
+/* Classes */
+.masthead {
+  background:white;
+  padding-left: 24px;
+  font-size: 14px;
+}
+
+.header {
+  background-color: #363f62;
+  padding: 24px;
+  text-align: center;
+  color: white;
+  font-weight: bolder;
+  font-size: xx-large;
+  font-style:italic;
+ 
+}
+
+.main {
+  padding: 24px;
+  background-color: #ffffff;
+  flex-grow: 1;
+}
+
+.card {
+
+  font-style:oblique;
+  text-align: center;
+}
+.card-body{
+  background-color:mistyrose;
+
+}
+.card-title{
+  font-size: xx-large;
+  font-weight:bolder;
+  text-align: center;
+}
+}
+.footer {
+  background-color:peachpuff;
+  padding-left: 24px;
+  font-size: 14px;
+  margin: 10px;
+}
+body {font-family: Arial;}
+
+
+
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color:lightsteelblue;
+}
+.cardp{
+  text-align: left;
+  font-style: oblique;
+}
+
+.cardk{
+  text-align: center;
+}
+
+
